@@ -6,6 +6,19 @@
   "author": "Jayden JaeMin Jeong",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "add": "^2.0.6",
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-stage-3": "^7.8.3"
   }
 }
