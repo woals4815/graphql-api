@@ -9,6 +9,7 @@
     "add": "^2.0.6",
     "global": "^4.4.0",
     "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.6"
   },
   "scripts": {
